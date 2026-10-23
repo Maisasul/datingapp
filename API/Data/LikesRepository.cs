@@ -63,10 +63,5 @@ namespace API.Data
         {
             throw new NotImplementedException();
         }
-
-        public async Task<bool> SaveAllChanges()
-        {
-            return await context.SaveChangesAsync() > 0;
-        }
     }
 }
